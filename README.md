@@ -20,8 +20,7 @@ Various versions of Perceptron
     └── ...
     
 ### Perceptron Learning in 2D pattern space
-
-![](https://media.giphy.com/media/ZbZwLqOgiMIuLQVujb/giphy.gif)
+![](data/perceptron_learning.gif)
 
 ### Simple Perceptron
 ```
