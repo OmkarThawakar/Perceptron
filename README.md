@@ -18,9 +18,12 @@ Various versions of Perceptron
     ├── libsvm.py               # Read libsvm format
     ├── vocab_index.json        # index of vocabulary words
     └── ...
+    
+### Perceptron Learning in 2D pattern space
+
+![](https://media.giphy.com/media/ZbZwLqOgiMIuLQVujb/giphy.gif)
 
 ### Simple Perceptron
-
 ```
 python simple_percepton.py
 ```
