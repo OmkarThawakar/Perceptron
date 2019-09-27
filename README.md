@@ -1,6 +1,10 @@
 # Perceptron
 Various versions of Perceptron 
 
+### Contributors
+
+Omkar Thawakar, Alok Jadhav
+
 ## Directory Structure
 
     data
