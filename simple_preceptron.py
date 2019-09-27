@@ -2,7 +2,7 @@
 # coding: utf-8
 
 '''
-Name : Omkar Thawakar
+Name : Omkar Thawakar, Alok jadhav
 Perceptron Implementation for binary classification
 '''
 
