@@ -1,9 +1,9 @@
 # Perceptron
 Various versions of Perceptron 
 
-### Contributors
-
-Omkar Thawakar, Alok Jadhav
+#### Contributors
+1. Omkar Thawakar (Research Assistant, IIT Ropar)
+2. Alok Jadhav (MS. University of Utah)
 
 ## Directory Structure
 
