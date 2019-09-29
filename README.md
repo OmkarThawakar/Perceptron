@@ -85,8 +85,11 @@ Averaged Perceptron Implement the averaged version of the original Perceptron
 algorithm. Averaged variant of the Perceptron asks you to keep two weight vectors (and two bias terms). In addition to
 the original parameters (w; b), you will need to update the averaged weight vector a
 and the averaged bias ba as:
+
 (a) a   a + w
+
 (b) ba   ba + b
+
 This update should happen once for every example in every epoch, irrespective of
 whether the weights were updated or not for that example. In the end, the learning
 algorithm should return the averaged weights and the averaged bias.
