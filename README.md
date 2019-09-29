@@ -86,9 +86,9 @@ algorithm. Averaged variant of the Perceptron asks you to keep two weight vector
 the original parameters (w; b), you will need to update the averaged weight vector a
 and the averaged bias ba as:
 
-(a) a   a + w
+(a) a = a + w
 
-(b) ba   ba + b
+(b) b_ = b_ + b
 
 This update should happen once for every example in every epoch, irrespective of
 whether the weights were updated or not for that example. In the end, the learning
