@@ -3,7 +3,7 @@ Various versions of Perceptron
 
 #### Contributors
 1. Omkar Thawakar (Research Assistant, IIT Ropar)
-2. Alok Jadhav (MS. University of Utah)
+2. Alok Jadhav (pursuing M.S. at University of Utah)
 
 ## Directory Structure
 
