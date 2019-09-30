@@ -121,3 +121,26 @@ Learning rate :::  1
 .....
 .....
 ```
+
+### Margin Perceptron
+
+This variant of Perceptron will perform an update on an example (x; y) if y(wTx + b) < margin, where margin is an additional positive
+hyper-parameter, specified by the user. Note that because margin is positive, this algorithm
+can update the weight vector even when the current weight vector does not make a
+mistake on the current example. 
+
+```
+python Margin_Perceptron.py
+```
+
+#### Output
+
+```
+...
+...
+==================================================
+For margin 0.01 we found lr = 1 with Maximum Average Accuracy 0.8930878888312103
+...
+...
+```
+
