@@ -144,3 +144,36 @@ For margin 0.01 we found lr = 1 with Maximum Average Accuracy 0.8930878888312103
 ...
 ```
 
+### Pocket Perceptron
+
+In many datasets, there is no perfect linear separation, so we
+would like to compute the linear separation which correctly classifies the largest number
+of examples. The Pocket Perceptron variant approximates this ideal linear separation
+by keeping track of the most accurate weight vector found so far (in a pocket) while
+continuing to update the weight vector itself. If a better weight vector is found, it
+replaces the one currently stored and the algorithm continues to run. 
+
+Implementation of the Pocket Perceptron. As with the Averaged Perceptron, you will need to
+keep two weight vectors (and two bias terms). In addition to the original parameters
+(w; b), you will need to track the pocket weights and bias (wp; bp). You may also want
+to track the number of examples your pocket and your current classifier have classified
+correctly. You should use both classifiers to predict every example in every epoch,
+and replace the pocket classifier if your current classifier has correctly classified more
+examples. In the end, the learning algorithm should return the pocket weights and the
+pocket bias.
+
+```
+python pocket_perceptron.py
+```
+
+#### Output
+
+```
+...
+...
+==================================================
+For margin 0.01 we found lr = 1 with Maximum Average Accuracy 0.8930878888312103
+...
+...
+```
+
